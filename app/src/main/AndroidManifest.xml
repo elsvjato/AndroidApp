@@ -18,9 +18,7 @@
         <activity
             android:name=".SignInActivity"
             android:exported="true"
-            android:launchMode="singleTask"> <!-- This line tells that only one instance
-            of the activity will exist, and it will be brought to the front if already
-            created. -->
+            android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -30,6 +28,9 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+        <activity
+            android:name=".MainPageActivity"
+            android:exported="false" />
 
 
     </application>
