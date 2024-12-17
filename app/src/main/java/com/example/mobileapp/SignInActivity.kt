@@ -90,7 +90,7 @@ class SignInActivity : AppCompatActivity() {
         }
     }
     private fun goToMainActivity() {
-        val intent = Intent(this, MainPageActivity::class.java)
+        val intent = Intent(this, FragmentSampleActivity::class.java)
         startActivity(intent)
 
     }
